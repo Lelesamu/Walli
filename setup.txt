@@ -1,0 +1,25 @@
+---- WALLI ----
+
+-- PREPARAZIONE AMBIENTE DI LAVORO + COLLEGAMENTO GITHUB
+1. Creo cartella del progetto sul computer
+2. Apro la cartella con VS Code
+3. Nel terminale digito 'git init'
+4. OPZIONALE: creo i file 'index.html' e 'README.md'
+5. Creo nuovo repository su GitHub
+6. Se ho già il file README in locale non serve ricrealo anche su GitHub
+7. Nel terminale digito uno alla volta i seguenti comandi
+    git add .
+    git commit -m "Primo commit"
+    git branch -M main
+    git remote add origin URL_DEL_TUO_REPOSITORY -> es. https://github.com/Lelesamu/Walli
+    git push -u origin main
+8. Se con l'ultimo comando ho problemi di permessi è dovuto al fatto che l'utenza windows del pc dal quale lo si sta eseguendo 
+   è abbinata ad un account GitHub differente da quello del repository. Abbiamo due strade da seguire per risolvere il problema:
+    - Su GitHub vado in 'Settings' -> 'Collaboratori' -> aggiungo tra i collaboratori l'utente con il quale sto eseguendo il comando
+    - Gestisco le credenziali GitHub da Windows:
+        - Clicca su Start e scrivi "Gestione credenziali" (o Credential Manager).
+        - Vai su Credenziali Windows.
+        - Cerca nell'elenco le voci che contengono git:https://github.com/.
+        - Clicca su Rimuovi.
+        - Torna su VS Code e prova a fare di nuovo il push. Ti apparirà una finestra pop-up di GitHub che ti chiede di ri-effettuare l'accesso. Fallo e tutto funzionerà.
+
