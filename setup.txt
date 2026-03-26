@@ -22,4 +22,14 @@
         - Cerca nell'elenco le voci che contengono git:https://github.com/.
         - Clicca su Rimuovi.
         - Torna su VS Code e prova a fare di nuovo il push. Ti apparirà una finestra pop-up di GitHub che ti chiede di ri-effettuare l'accesso. Fallo e tutto funzionerà.
+9. Installo Angular con questo comando -> 'npm install -g @angular/cli'
+10. Creo la cartella per la parte frontend del progetto -> 'ng new frontend --routing --style=scss'. 
+    In questo comando ci sono due funzioni:
+    - --routing: Crea già il file per gestire le pagine (Home, Calendario, Note).
+    - --style=scss: Ti permette di usare SASS, che è molto più potente del CSS normale
+    ATTENZIONE: se non funziona è probabile perché l'esecuzione degli script è disabilitata. 
+                Si può riattivare temporaneamente per questa sessione tramite il comando -> 'Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process'.
+                Poi rilancio il comando precedente.
+11. 
+    
 
