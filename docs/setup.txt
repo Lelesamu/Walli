@@ -32,5 +32,10 @@
                 Poi rilancio il comando precedente.
 11. Entro nella cartella frontend con il comando 'cd frontend'
 12. Con il comando 'ng serve -o' il codice e attivo un server locale (con la dicitura -o apro direttamente il browser su http://localhost:4200)
+13. NPM Scripts se non sono presenti nel menu laterale li si può trovare nel pannello 'Explorer': sono uno dei expansion panel presenti qui dentro. 
+    Lo si può spostare nel menù laterale. Negli NPM Scripts ci sono le funzioni per gestire il server e compilare il progetto.
+14. Per fermare il server ci sono due metodi:
+    - premere 'ctrl-c' nel terminale
+    - premere l'icona del cestino che si trova a fianco di ogni terminale aperto all'avvio di un server
     
 
