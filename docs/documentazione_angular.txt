@@ -1,0 +1,18 @@
+---- Documentazione Angular ----
+
+1. Cartella src/: Al suo interno scriviamo il codice. Contiene file e sottocartelle:
+    - app/: cartella contenente i componenti dell'applicazione.
+    - assets/: cartella contenente immagini, icone, file JSON locali.
+    - index.html: file d'ingresso del progetto. Tendenzialmente quasi vuoto, Angular lo ritiene il punto di accesso dove 'iniettare' i componenti.
+    - style.scss: file CSS globale, visto da tutti i documenti. 
+2. File di configurazione:
+    - angular.json: file più importante, indica ad Angular come compilare l'app, dove trovare file e librerie.
+    - package.json: contiene tutte le librerie installate. Con il comando 'npm install' vengono installate tutte le librerie presenti in questo file.
+                    Utile se si porta il progetto da un'altra parte.
+    - tsconfig.json: configuratore di TypeScript, il linguaggio utilizzato.
+3. Cartella node_modules/: contiene tutto il codice esterno che serve ad Angular per funzionare.
+   Non deve essere toccata e oltre tutto pesando tanti GB è consigliato non caricarla su GitHub.
+   Per evitare di caricarla basta indicarla nel file .gitignore
+4. PWA (Service Worker): con questo servizio vediamo anche i file manifest.webmanifest e ngsw-config.json.
+   Questi due file servono per indicare al dispositivo che la installa che è 'un'app vera', che può
+   essere installata o salvata in cache.

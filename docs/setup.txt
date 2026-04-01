@@ -30,6 +30,7 @@
     ATTENZIONE: se non funziona è probabile perché l'esecuzione degli script è disabilitata. 
                 Si può riattivare temporaneamente per questa sessione tramite il comando -> 'Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process'.
                 Poi rilancio il comando precedente.
-11. 
+11. Entro nella cartella frontend con il comando 'cd frontend'
+12. Con il comando 'ng serve -o' il codice e attivo un server locale (con la dicitura -o apro direttamente il browser su http://localhost:4200)
     
 
