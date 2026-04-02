@@ -16,3 +16,4 @@
 4. PWA (Service Worker): con questo servizio vediamo anche i file manifest.webmanifest e ngsw-config.json.
    Questi due file servono per indicare al dispositivo che la installa che è 'un'app vera', che può
    essere installata o salvata in cache.
+5. Angular funziona in modalità 'Hot reload', ovvero le modifiche vengono effettuate in tempo reale
